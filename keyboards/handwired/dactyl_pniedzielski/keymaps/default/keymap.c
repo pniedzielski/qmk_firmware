@@ -110,8 +110,8 @@ void matrix_scan_user(void) {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [LYR_BASE] = LAYOUT_7x5(
-        KC_GRV,   KC_1,    KC_2,    KC_3,    KC_4,    KC_5,      KC_LEAD,         TD(TD_LYR),  KC_6,     KC_7,    KC_8,     KC_9,     KC_0,      KC_MINUS,
-        KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,      DYN_MACRO_PLAY1, KC_BSLASH,   KC_Y,     KC_U,    KC_I,     KC_O,     KC_P,      KC_LBRACKET,
+        KC_1,      KC_2,    KC_3,    KC_4,    KC_5,    KC_6,      KC_LEAD,         TD(TD_LYR),  KC_7,     KC_8,    KC_9,     KC_0,     KC_MINUS,  KC_BSLASH,
+        KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,      DYN_MACRO_PLAY1, KC_GRAVE,    KC_Y,     KC_U,    KC_I,     KC_O,     KC_P,      KC_LBRACKET,
         KC_DELETE, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,      DYN_MACRO_PLAY2, KC_RBRACKET, KC_H,     KC_J,    KC_K,     KC_L,     KC_SCOLON, KC_QUOTE,
         KC_CAPS,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                                    KC_N,     KC_M,    KC_COMMA, KC_DOT,   KC_SLASH,  KC_EQUAL,
                             KC_LEFT, KC_UP,   KC_HOME, KC_LSHIFT, KC_BSPACE,       KC_ENTER,    KC_SPACE, KC_PGUP, KC_DOWN,  KC_RIGHT,
