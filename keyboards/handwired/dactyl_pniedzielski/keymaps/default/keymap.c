@@ -113,12 +113,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_1,      KC_2,    KC_3,    KC_4,    KC_5,    KC_6,      KC_LEAD,         TD(TD_LYR),  KC_7,     KC_8,    KC_9,     KC_0,     KC_MINUS,  KC_BSLASH,
         KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,      DYN_MACRO_PLAY1, KC_GRAVE,    KC_Y,     KC_U,    KC_I,     KC_O,     KC_P,      KC_LBRACKET,
         KC_DELETE, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,      DYN_MACRO_PLAY2, KC_RBRACKET, KC_H,     KC_J,    KC_K,     KC_L,     KC_SCOLON, KC_QUOTE,
-        KC_CAPS,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                                    KC_N,     KC_M,    KC_COMMA, KC_DOT,   KC_SLASH,  KC_EQUAL,
+        KC_ESC,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                                    KC_N,     KC_M,    KC_COMMA, KC_DOT,   KC_SLASH,  KC_EQUAL,
                             KC_LEFT, KC_UP,   KC_HOME, KC_LSHIFT, KC_BSPACE,       KC_ENTER,    KC_SPACE, KC_PGUP, KC_DOWN,  KC_RIGHT,
                                               KC_END,  KC_LCTRL,  KC_LGUI,         KC_APP,      KC_LALT,  KC_PGDN
     ),
     [LYR_FN] = LAYOUT_7x5(
-        KC_F1,         KC_F2,   KC_F3,   KC_F4,           KC_F5,          KC_F6,   KC_ESC,         _______,         KC_F7,   KC_F8,               KC_F9,               KC_F10,              KC_F11,  KC_F12,
+        KC_F1,         KC_F2,   KC_F3,   KC_F4,           KC_F5,          KC_F6,   KC_CAPS,        _______,         KC_F7,   KC_F8,               KC_F9,               KC_F10,              KC_F11,  KC_F12,
         KC_MAIL,       _______, _______, KC_UP,           _______,        _______, DYN_REC_START1, KC_SYSTEM_SLEEP, _______, KC_MEDIA_EJECT,      KC_MEDIA_PLAY_PAUSE, KC_AUDIO_MUTE,       _______, KC_MEDIA_SELECT,
         KC_WWW_SEARCH, _______, KC_LEFT, KC_DOWN,         KC_RIGHT,       _______, DYN_REC_START2, RESET,           _______, KC_MEDIA_PREV_TRACK, KC_MEDIA_STOP,       KC_MEDIA_NEXT_TRACK, _______, KC_MY_COMPUTER,
         KC_F13,        KC_F14,  KC_F15,  KC_F16,          KC_F17,         KC_F18,                                   KC_F19,  KC_F20,              KC_F21,              KC_F22,              KC_F23,  KC_F24,
